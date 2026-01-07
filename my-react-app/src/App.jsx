@@ -5,6 +5,8 @@ import './App.css' // >> CSS import해야 적용 됨
 import Exam1 from './components/Exam1'
 import Exam2 from './components/Exam2'
 import Exam3 from './components/Exam3'
+import Exam4 from './components/Exam4'
+import Exam5 from './components/Exam5'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -22,7 +24,7 @@ function App() {
       {showExam && <Exam2 ddiyong="hello" test="world"/>}*/}
       {/* 조건부 렌더링 : 조건에 따라 렌더링되는 방법 && 앞에 있는 showExam이 true면 Exam1 렌더링됨
                                                     false면 Exam1 렌더링되지 않음 */}
-      <Exam3 />
+      <Exam5 />
     </>
   )
 }
